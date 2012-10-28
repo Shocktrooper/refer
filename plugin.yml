@@ -1,0 +1,29 @@
+name: refer
+main: com.empclan.refer.refer
+version: 1.0
+commands:
+   refer:
+     description: base command
+     usage: /refer
+     permission: refer.basic
+     permission-message: You don't have permission
+   refer check:
+      description: checks your own referral amount
+      usage: /refer check
+      permission: refer.check
+      permission-message: You don't have permission
+   refer get:
+      description: gets your personal referral code
+      usage: /refer get
+      permission: refer.get
+      permission-message: You don't have permission
+   refer set:
+      description: sets a players referral amount
+      usage: /refer set (player) (amount of referrals)
+      permission: refer.set
+      permission-message: You don't have permission
+   refer enter:
+      descrpition: enter another players referral code
+      usage: /refer enter (code)
+      permission: refer.enter
+      permission-message: You don't have permission
